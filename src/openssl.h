@@ -431,8 +431,8 @@ extern int _libssh2_bn_from_bin(_libssh2_bn *bn, size_t len,
 
 /* Default generate and safe prime sizes for
    diffie-hellman-group-exchange-sha1 */
-#define LIBSSH2_DH_GEX_MINGROUP     2048
-#define LIBSSH2_DH_GEX_OPTGROUP     4096
+#define LIBSSH2_DH_GEX_MINGROUP     1024
+#define LIBSSH2_DH_GEX_OPTGROUP     2048
 #define LIBSSH2_DH_GEX_MAXGROUP     8192
 
 #define LIBSSH2_DH_MAX_MODULUS_BITS 16384
